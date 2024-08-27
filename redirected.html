@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirected Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>You've been redirected!</h1>
+    <a href="https://raw.githubusercontent.com/eitans101/test1/main/download.jfif" download>
+        <button>Download File</button>
+    </a>
+    <button onclick="goHome()">Home</button>
+
+    <script>
+        function goHome() {
+            // Redirect to the main page
+            window.location.href = "index.html"; // Change this to the actual main page URL
+        }
+    </script>
+</body>
+</html>
